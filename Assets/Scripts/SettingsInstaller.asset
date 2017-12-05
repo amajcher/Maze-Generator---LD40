@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f554f2fe708015046bc2d49b3254db04, type: 3}
+  m_Name: SettingsInstaller
+  m_EditorClassIdentifier: 
+  Difficulty: medium
+  GeneratorEasySettings:
+    Eng: []
+    Size: 100
+    RoadMinArea: 40
+    RoadMaxArea: 1900
+    RoadMin: 0
+    RoadMax: 1
+    RoadRatio: 6
+    RoadMinAngle: 35
+    RoadMaterial: {fileID: 2100000, guid: 113a785be7bb3f54a96bf0f1325964b4, type: 2}
+    SegmentMaterial: {fileID: 2100000, guid: 5329a1004145a0949a1572072ff89f9e, type: 2}
+    RoadWidth: {x: 0, y: 2, z: 0}
+    RoadGenerationContainer: {fileID: 0}
+    AreBuildingsEnable: 1
+    BuildingsDensity: 200
+    BuildingMaxEdgeSize: 5
+    BuildingMaxHeight: 25
+    BuildingMinHeight: 10
+    BuildingBuildingMaterial: {fileID: 2100000, guid: 7deee86606821f24f90f18f7faa25d45,
+      type: 2}
+  GeneratorMediumSettings:
+    Eng: []
+    Size: 130
+    RoadMinArea: 40
+    RoadMaxArea: 500
+    RoadMin: 0
+    RoadMax: 1
+    RoadRatio: 6
+    RoadMinAngle: 35
+    RoadMaterial: {fileID: 2100000, guid: 113a785be7bb3f54a96bf0f1325964b4, type: 2}
+    SegmentMaterial: {fileID: 2100000, guid: 5329a1004145a0949a1572072ff89f9e, type: 2}
+    RoadWidth: {x: 0, y: 2, z: 0}
+    RoadGenerationContainer: {fileID: 0}
+    AreBuildingsEnable: 1
+    BuildingsDensity: 1400
+    BuildingMaxEdgeSize: 5
+    BuildingMaxHeight: 25
+    BuildingMinHeight: 10
+    BuildingBuildingMaterial: {fileID: 2100000, guid: 7deee86606821f24f90f18f7faa25d45,
+      type: 2}
+  GeneratorHardSettings:
+    Eng: []
+    Size: 180
+    RoadMinArea: 70
+    RoadMaxArea: 450
+    RoadMin: 0
+    RoadMax: 1
+    RoadRatio: 6
+    RoadMinAngle: 35
+    RoadMaterial: {fileID: 2100000, guid: 113a785be7bb3f54a96bf0f1325964b4, type: 2}
+    SegmentMaterial: {fileID: 2100000, guid: 5329a1004145a0949a1572072ff89f9e, type: 2}
+    RoadWidth: {x: 0, y: 2, z: 0}
+    RoadGenerationContainer: {fileID: 0}
+    AreBuildingsEnable: 1
+    BuildingsDensity: 1500
+    BuildingMaxEdgeSize: 4
+    BuildingMaxHeight: 25
+    BuildingMinHeight: 10
+    BuildingBuildingMaterial: {fileID: 2100000, guid: 7deee86606821f24f90f18f7faa25d45,
+      type: 2}
+  GameSettings:
+    WinPointsTotal: 5
+    Time: 60
+    Active: 0
+    TimeLeft: 2
+    WinPointsCount: 5
